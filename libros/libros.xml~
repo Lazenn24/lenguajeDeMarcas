@@ -1,0 +1,24 @@
+<?xml version='1.0' ?>
+<!DOCTYPE libros SYSTEM "/home/horabaixa/LenguajeDeMarcas/libros/libros.dtd">
+
+<libros>
+
+	<libro isbn= "" numcopia= "">
+		<titulo></titulo>
+		<titulo></titulo>
+		<autor></autor>
+		<anyoedicion></anyoedicion>
+		<numpaginas></numpaginas>
+		<lengua></lengua>
+	</libro>
+	
+	<libro isbn= "" numcopia= "">
+		<titulo></titulo>
+		<titulo></titulo>	
+		<autor></autor>
+		<anyoedicion></anyoedicion>
+		<numpaginas></numpaginas>
+		<lengua></lengua>
+	</libro>	
+	
+</libros>

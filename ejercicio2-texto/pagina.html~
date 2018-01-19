@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="estilos.css"/>
+		<meta charset="UTF-8"/>
+	</head>
+	<body>
+		<h1>LOREM IPSUM</h1>
+		<p class="subtitulo_principal">Página de demostración de CSS y (x)HTML</p>
+		<h2>Dolor sit amet...</h2>
+		
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed interdum mauris
+		nec metus. Nulla eget diam ut arcu commodo tempor. Aenean lobortis est
+		nec metus. Morbi in ante. Fusce velit nisl, ultrices nec, ullamcorper
+		in, eleifend a, justo. Aenean purus. Aliquam at eros id odio accumsan
+		mollis. Phasellus quis pede. Sed at ligula. Cras eros metus,
+		consectetuer vel, euismod id, euismod non, erat. Integer non enim in
+		neque malesuada tincidunt. Donec commodo, nibh quis tempor laoreet,
+		lacus dui malesuada orci, non laoreet ligula nisi vel justo. Nunc
+		vulputate, risus et venenatis pretium, sem diam vehicula nibh, id
+		suscipit erat sapien eu urna. Suspendisse potenti.</p>	
+		
+		<h2>Proin convallis tinciditunt lorem</h2>
+		
+		<p>Francesc Macià, adquirirà popularitat des de l'exili. Durant la
+		dictadura de Primo de Rivera i amb 73 anys, va decidir fer un acte
+		publicitàriament molt rendible, com va ser plantar-se a Barcelona.
+		Aleshores, va córrer la veu i el rumor. Ell mentrestant anà a casa de
+		la seva filla. Els simpatitzants es varen anar congregant, com ho va
+		fer la policia, que el va agafar i el va dur a la frontera. No el
+		podien empresonar a no ser que li volguessin donar més ressó.
+		La segona República Espanyola, extracte de la Viquipèdia</p>	
+		
+		<h2>Nulla ullamcorper enim eget felis!</h2>
+		
+		<p>Nam tellus quam, pretium et, congue sed,
+		varius eu, nunc. Phasellus blandit. Aliquam sagittis elit imperdiet
+		dui. Morbi purus magna, venenatis et, malesuada non, vulputate
+		suscipit, dolor. Aliquam sapien eros, vehicula a, eleifend vitae,
+		scelerisque consectetuer, purus. Vestibulum ac nunc. Etiam aliquam
+		blandit enim. Sed odio est, viverra a, faucibus vel, auctor molestie,
+		dolor. Nulla feugiat, est id tempor suscipit, dolor ipsum pellentesque
+		diam, sit amet fringilla elit lectus id purus. Nullam sit amet augue.
+		Morbi pretium odio ultricies ligula. Donec condimentum imperdiet ipsum.
+		Proin non diam. Cum sociis natoque penatibus et magnis dis parturient
+		montes, nascetur ridiculus mus. Donec sollicitudin sodales turpis.</p>	
+		
+		<p class="pie_de_pagina">Esta pagina mantiene los contenidos bajo Creative Commons</p>
+	</body>
+</html>

@@ -1,0 +1,65 @@
+body
+{
+border-style:solid;
+border-color:black;
+width:790px;
+text-align:justify;
+background-image:url(fondo-cabecera.png); 
+background-repeat:no-repeat;
+margin-top:200px;
+
+}
+
+h1
+{
+
+font-size:1.9em;
+font-family: Gentium, Rockwell, "Trebuchet MS", Arial, sans-serif;
+color:#656086;
+text-align:right;
+padding-right:60px;
+
+}
+
+
+.subtitulo_principal
+{
+font-size:0.7em;
+font-family: "Bitstream Vera Sans", "Gill Sans", "Trebuchet MS", Trebuchet, Arial, sans-serif;
+color:#656086;
+text-align:right;
+padding-right:60px;
+background-image:none;
+padding:0px;
+}
+
+h2
+{
+font-size:1.1em;
+font-family: "Bitstream Charter", Verdana, Arial, serif;
+color:#333;
+}
+
+p	
+{
+font-size:0.8em;
+font-family:"Bitstream Charter",Verdana,Arial,serif;
+text-indent: 3em;
+background-image:url(flor.jpg);
+background-position:bottom center; 
+background-repeat:no-repeat;
+padding: 0px 0px 100px 0px;
+
+}
+
+.pie_de_pagina
+{
+font-size:0.5em;
+text-align:center;
+font-family: sans-serif;
+color:#fff;
+background-color:#709c34;
+background-image:none;
+padding:0px;
+
+}

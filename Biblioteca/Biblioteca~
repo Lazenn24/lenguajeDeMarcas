@@ -1,0 +1,13 @@
+<html>
+<head>
+<title>IES Son Ferrer</title>
+</head>
+<img  src="Biblio.jpg" alt="Imagen de biblioteca" style="width:300px;height:200px;">
+<h1 style="text-align:center;font-size:60px;"> 
+IES Son Ferrer
+</h1>
+<h1 style="text-align:center">Biblioteca</h1>
+<hr>
+<a href="Formulario.html" target="_blank">Registro de usuario</a>
+
+</html>

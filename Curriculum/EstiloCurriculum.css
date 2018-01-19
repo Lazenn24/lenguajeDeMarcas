@@ -1,0 +1,43 @@
+body{
+background-color: #EEF1FF;
+}
+h1 {
+	text-align: center;
+}
+
+#DatosPersonales {
+	margin-left: 10px;
+	margin-top: 125px;
+	background-color: green;
+	margin-right: 1500px;
+	height: 10000px;
+}
+
+#Aptitudes{
+	background-color: greenyellow;
+	margin-top: -10000px;
+	margin-left: 500px;
+	margin-bottom: -18px;
+}
+
+#Experiencia{
+	margin-left: 500px;
+	background-color: greenyellow;
+	margin-bottom: -18px;
+}
+
+#Formacion{
+	margin-left: 500px;
+	background-color: greenyellow;
+	margin-bottom: -18px;
+
+}
+
+#Idiomas{
+	margin-left: 500px;
+	background-color: greenyellow;
+	margin-bottom: -18px;
+
+}
+
+

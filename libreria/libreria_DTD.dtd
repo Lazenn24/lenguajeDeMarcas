@@ -1,0 +1,27 @@
+<!ELEMENT libreria (libro,reservas)>
+
+<!ELEMENT libro (titulo+,autor+,edicion+,fecha+,paginas+,ISBN+,sinopsis+, reservas+)>
+
+<!ELEMENT titulo  (#PCDATA)>
+
+<!ELEMENT autor (#PCDATA)>
+
+<!ELEMENT edicion (#PCDATA)>
+
+<!ELEMENT fecha (#PCDATA)>
+
+<!ELEMENT paginas (#PCDATA)>
+
+<!ELEMENT ISBN (#PCDATA)>
+
+<!ELEMENT sinopsis (#PCDATA)>
+
+<!ELEMENT reservas (reserva)>
+
+<!ELEMENT reserva (fecha)>
+
+<!ATTLIST reserva codigo ID #REQUIRED>
+
+<!ATTLIST reserva libro IDREF #REQUIRED>
+
+<!ELEMENT fecha (#PCDATA)>

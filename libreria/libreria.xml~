@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE libreria SYSTEM "libreria_DTD.dtd">
+
+<libreria>
+	<libro>
+		<titulo>El nombre del viento</titulo>
+		<autor>Patrick Rothfuss</autor>
+		<edicion>Debolsillo</edicion>
+		<fecha>2011</fecha>
+		<paginas>880 paginas</paginas>
+		<ISBN>978-8499082479</ISBN>
+		<sinopsis>En una posada en tierra de nadie, un hombre se dispone a relatar, por primera vez, la autentica historia de su vida. 
+		Una historia que unicamente el conoce y que ha quedado diluida tras los rumores, las conjeturas y los cuentos de taberna que le han convertido en un personaje legendario 
+		a quien todos daban ya por muerto: Kvothe, musico, mendigo, ladron, estudiante, mago, heroe y asesino.
+		Ahora va a revelar la verdad sobre sí mismo. Y para ello debe empezar por el principio: su infancia en una troupe de artistas itinerantes, 
+		los años malviviendo como un ladronzuelo en las calles de una gran ciudad y su llegada a una universidad donde esperaba encontrar todas las respuestas que habia estado buscando.</sinopsis>
+		<reservas>
+			<reserva codigo="p1" libro="978-8499082479">
+				<fecha>02/08/2017</fecha>
+			</reserva>	
+		</reservas>	
+	</libro>
+	
+	<libro>
+		<titulo>Ready player one</titulo>
+		<autor>Ernest Cline</autor>
+		<edicion>Ediciones B</edicion>
+		<fecha>2011</fecha>
+		<paginas>464 paginas</paginas>
+		<ISBN>978-8466649179</ISBN>
+		<sinopsis>Es el año 2044, y el mundo real es un lugar horrible. Como la mayoria, Wade Watts se escapa de la realidad gastando su tiempo libre conectadoa OASIS,
+		una utopia virtual que te permite hacer y ser lo que quieras, un lugar donde puedes vivir, jugar y enamorarte en mas de diez mil planetas. Y como la mayoria,
+		Wade sueña con ser quien descubra el premio que se esconde en este mundo virtual, ya que en algun lugar de este campo de juego, el creador de OASIS, James Halliday, 
+		ha escondido una serie de desafiantes retos que daran una gran fortuna y poder a quien los supere.</sinopsis>
+		<reservas>
+			<reserva codigo="p4" libro="978-8466649179">
+				<fecha>02/09/2017</fecha>
+			</reserva>	
+		</reservas>	
+	
+	</libro>
+	
+</libreria>

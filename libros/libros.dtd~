@@ -1,0 +1,9 @@
+<!ELEMENT libros (libro, libro)>
+<!ELEMENT libro (titulo+, autor, anyoedicion, numpaginas, lengua)>
+<!ATTLIST libro isbn CDATA #REQUIRED>
+<!ATTLIST libro numcopia CDATA #REQUIRED >
+<!ELEMENT titulo EMPTY>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT anyoedicion (#PCDATA)>
+<!ELEMENT numpaginas (#PCDATA)>
+<!ELEMENT lengua (español|ingles|frances|aleman|EMPTY)>

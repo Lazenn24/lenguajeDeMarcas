@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+ 
+   <head>
+      <title>Maquetación de formulario</title>
+      <meta charset="UTF-8" />
+      <link rel="stylesheet" type="text/css" href="formulario.css">
+   </head>
+  
+   <body>
+     
+      <div id="cabecera">
+         <h1>Maquetación de formulario</h1>
+      </div>
+      
+      <div id="principal">
+       
+         <div id="izquierda">
+           
+            <h3>Título de columna</h3>
+           
+            <ul>
+               <li>
+                  <a href="">Link uno</a>				
+               </li>
+               <li>
+                  <a href="" >Link dos</a>				
+               </li>
+               <li>
+                  <a href="" >Link tres</a>				
+               </li>
+               <li>
+                  <a href="" >Link cuatro</a>				
+               </li>
+               <p>Panel derecha</p>
+           
+           
+            </ul>
+         </div>
+        
+         <div id="central">
+           
+            <form class="formulario" action="">
+               
+               <p>Formulario</p>
+             
+               <label>Nombre:</label>
+               <input type="text" /><br />
+              
+               <label>Email:</label>	
+               <input type="text" /><br />
+              
+               <label>Mensaje:</label>
+               <textarea></textarea><br />
+               
+               <label>Sexo:</label>
+               <input type="radio" name="genero" value="Masculino"/>Masculino
+               <input type="radio" name="genero" value="Femenino"/>Femenino<br />
+              
+               <label id="botones">Color preferido:</label>
+               <input type="checkbox" name="color" value="Rojo"/>Rojo
+               <input type="checkbox" name="color" value="Azul"/>Azul
+               <input type="checkbox" name="color" value="Verde"/>Verde<br />
+               
+               <label>Acepto los términos</label>
+               <input type="checkbox"/><br />
+               <input type="submit" value="Submit"/>
+               <input type="reset" value="Reset"/><br />
+           
+           
+            </form>
+        
+         </div>
+    
+      </div>
+    
+      <div id="pie">
+        
+         <p>Texto del pie</p> <br>
+        
+         <p>Validaciones de la W3C <a href="https://validator.w3.org/#validate_by_uri" >Test XHML</a>-<a href="http://jigsaw.w3.org/css-validator/#validate_by_uri+with_options" >Test CSS</p>
+    
+      </div>
+   </body>
+</html>

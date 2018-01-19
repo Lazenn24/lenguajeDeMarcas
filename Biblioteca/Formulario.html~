@@ -1,0 +1,90 @@
+
+<html>
+   <head>
+      <meta charset= "UTF-8">
+      <title>Formulario de registro</title>
+   </head>
+   <body>
+      <h1>Registro de biblioteca</h1>
+   <hr>
+      <a href="Biblioteca.html" target="_blank">Página principal</a>
+   <br>   	
+      <form action="/action_page.php" method="post">
+      <table>
+         <tr>
+            <td>
+               <label><b>Nombre</b></label>
+            </td>
+            <td>
+               <input  type="text" placeholder="Introduce tu nombre" name="name" required>
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <label><b>Apellidos</b></label>
+            </td>
+            <td>
+               <input  type="text" placeholder="Introduce tus apellidos" name="surname" required>
+            </td>
+         </tr>
+         <tr>
+         	<td>
+            	<label><b>Correo electrónico</b></label>
+            </td>
+            <td>		
+        			<input type="text" placeholder="Introduce el correo electrónico" name="email" required>
+            </td>
+         </tr>  
+         <tr>		 
+            <td>
+               <label><b>País</b></label>
+            </td> 
+            <td>  	
+               <select>
+                  <option>España</option>
+                  <option>Francia</option>
+                  <option>Alemania</option>
+                  <option>Inglaterra</option>
+                  <option>Italia</option>
+               </select>
+            </td>
+         </tr>	
+         <tr>			
+            <td>
+               <label><b>Ciudad</b></label>
+            </td>  
+            <td>			
+               <input type="text" placeholder="Ciudad" name="Ciudad" required/>
+            </td>
+        </tr>
+        <tr>    	
+            <td>
+               <label><b>Dirección</b></label>
+            </td>
+            <td>   	
+               <input type="text" placeholder="Dirección" name="Dirección" required/>
+            </td>
+        </tr>   	
+        <tr>    	
+            <td>
+               <label><b>Contraseña</b></label>
+            </td>  
+            <td> 	
+               <input type="password" placeholder="Introduce la contraseña" name="psw" required>
+            </td>
+        </tr>
+        <tr>    			
+            <td>
+               <label><b>Repite la contraseña</b></label>
+            </td>
+            <td>   	
+               <input type="password" placeholder="Repite la contraseña" name="psw-repeat" required>
+            </td>
+        </tr>    	
+      </table>
+     		<a class="btn" href="Biblioteca.html"/a>
+			<button class="btn" type="submit">Volver</button>
+      	<button type="submit" class="signupbtn">Registrar</button>
+      </form>
+   </body>
+</html>

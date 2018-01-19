@@ -1,0 +1,30 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Iniciar sesión</title>
+</head>
+<body>
+<a href="Biblioteca.html" target="_blank">Página principal</a>
+<br>
+<form action="/action_page.php" method="post">
+<table>
+<tr>
+<td>
+<label><b>Correo electrónico<b><label>
+</td>
+<td>
+<input type="text" placeholder="Introduzca su correo electrónico" name="email" required>
+</td>
+</tr>
+<tr>
+<td>
+<label><b>Contraseña</b></label>
+</td>
+<td>
+<input type="password" placeholder="Introduzca su contraseña" name="password" required>
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>

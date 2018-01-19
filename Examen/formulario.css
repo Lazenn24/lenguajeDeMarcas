@@ -1,0 +1,132 @@
+body  {
+  margin: 10px 900px 0px 1px;
+  padding: 0;
+  background: #fff;
+  font-family: arial, helvetica, sans-serif;
+  
+  }
+ 
+/*  Maquetación de la página (sin formulario)  */
+ 
+#contenedor {
+  width: 100%  ;
+  margin: 0 auto;
+  }
+ 
+#cabecera { 
+  background: ;
+  border: 1px solid ;
+  }
+ 
+#cabecera h1  {
+  margin: ;
+  line-height:  ;
+  text-align: center ;
+  }
+ 
+#principal  {
+  background: #fff ;
+  display: table;
+  }
+ 
+#izquierda  {
+  width: 25% ;
+  padding: 3px;
+  display: table-cell;
+  background: #fff ;
+  border: 1px solid;
+  border-top: 0px ;
+  border-right: 0px ;
+  }
+ 
+#izquierda ul {
+  margin: 0px 0px 400px 0px ;
+  padding: 0px ;
+  }
+ 
+#izquierda ul li  {
+  line-height: 20px ;
+  }
+ 
+#izquierda ul li a  {
+  display: block;
+  color: ;
+  text-align: center ;
+  border: 1px solid ;
+  margin:  5px 10px 5px 10px ;
+  }
+ 
+#izquierda ul li a:hover  {
+  color: ;
+  border-color: ;
+  }
+ 
+#central  {
+  padding: 10px ;
+  background:#fff;
+  border: solid 1px;
+  border-top: 0;
+  display: table-cell;
+  width: 800px;
+  }
+ 
+#pie  {
+  background: #000;
+  }
+ 
+#pie p  {
+  margin:0px 1px 1px 1px ;
+  text-align: center ;
+  line-height: 50px ;
+  color: #fff;
+  }
+ 
+#pie p a  {
+  color: #99f;
+  }
+ 
+#pie p a:hover  {
+  color: #9f9;
+  }
+
+/*  FIN Maquetación de la página (sin formulario)  */
+
+/*  Maquetación del formulario) opcional */
+
+
+ 
+  .formulario p{
+  	font-size: 30px;
+
+ 
+    
+  }
+    
+  .formulario label{	
+  display: table-cell;
+  padding: 10px;
+  
+
+ 
+  
+   
+  }
+    
+  .formulario input[type="text"]{
+  	
+  	
+  
+ 	
+  }
+    
+  .formulario textarea{ 
+  	
+ 
+  }
+  
+  #botones  {  
+
+  
+  }
+    
+ 

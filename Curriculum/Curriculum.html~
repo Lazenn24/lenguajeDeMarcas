@@ -1,0 +1,61 @@
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" type="text/css" href="EstiloCurriculum.css">
+      <title>Curriculum Vitae</title>
+   </head>
+   <body>
+      <h1>Curriculum Vitae</h1>
+    
+         <div id="DatosPersonales">
+         	<img src="image.png" alt="perfil">
+            <h2>Datos personales</h2>
+            <p>Nombre:<br> Sergio López Pérez<br>
+               Calle:<br> Roure nº 34 bjs.<br>
+               Teléfono de contacto:<br> 618589127<br>
+               Correo electrónico:<br> se.lopezperez@gmail.com
+            </p>
+         	
+         </div>
+         <div id="Aptitudes">
+       
+            <h2>Aptitudes</h2>
+            <p>Capacidad de trabajo en equipo.<br>
+               Capacidad trabajo bajo presión.<br>
+               Resolución de problemas.
+            </p>
+          
+         </div>
+         <div id="Experiencia">
+        
+            <h2>Experiencia</h2>
+            <p>JUNIO de 2016-JUNIO de 2017.<br>
+               Mediamarkt, Palma - Vendedor.<br>
+               MAYO de 2011-Febrero de 2015.<br>
+               Empresa familiar - Peón de pintura.
+            </p>
+          
+         </div>
+         <div id="Formacion">
+        
+            <h2>Formación</h2>
+            <p>SEPTIEMBRE de 2011-JUNIO de 2013<br>
+               IES Emili Darder, Palma - Bachiller.<br>
+               SEPTIEMBRE de 2013-JUNIO de 2014<br>
+               Universitat de les Illes Balears, Palma - Grado de Química.
+            </p>
+         
+         </div>
+         <div id="Idiomas">
+        
+            <h2>Idiomas</h2>
+            <p>Español: lengua materna<br>
+               Catalán: segunda lengua<br>
+               Inglés: nivel alto
+            </p>
+          
+         </div>
+   
+   </body>
+</html>
+
