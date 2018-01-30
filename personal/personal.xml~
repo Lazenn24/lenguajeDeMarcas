@@ -1,0 +1,13 @@
+<?xml version='1.0' ?>
+<!DOCTYPE personal SYSTEM "/home/horabaixa/LenguajeDeMarcas/personal/personal.dtd">
+
+<personal>
+	<persona>
+		<nombre></nombre>
+		<apellido>
+		</apellido>
+		<apellido>
+		</apellido>	
+		<sexo></sexo>
+	</persona>
+</personal>	

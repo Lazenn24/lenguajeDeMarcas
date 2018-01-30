@@ -1,4 +1,4 @@
-<!ELEMENT libros (libro, libro)>
+<!ELEMENT libros (libro+)>
 <!ELEMENT libro (titulo+, autor, anyoedicion, numpaginas, lengua)>
 <!ATTLIST libro isbn CDATA #REQUIRED>
 <!ATTLIST libro numcopia CDATA #REQUIRED >
@@ -6,4 +6,8 @@
 <!ELEMENT autor (#PCDATA)>
 <!ELEMENT anyoedicion (#PCDATA)>
 <!ELEMENT numpaginas (#PCDATA)>
-<!ELEMENT lengua (español|ingles|frances|aleman|EMPTY)>
+<!ELEMENT lengua (espanyol|ingles|frances|aleman)+> 
+<!ELEMENT espanyol (#PCDATA)>
+<!ELEMENT ingles (#PCDATA)>
+<!ELEMENT frances (#PCDATA)>
+<!ELEMENT aleman (#PCDATA)>

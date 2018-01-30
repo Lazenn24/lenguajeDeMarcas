@@ -3,22 +3,28 @@
 
 <libros>
 
-	<libro isbn= "" numcopia= "">
+	<libro isbn= "756" numcopia= "758">
 		<titulo></titulo>
 		<titulo></titulo>
 		<autor></autor>
 		<anyoedicion></anyoedicion>
 		<numpaginas></numpaginas>
-		<lengua></lengua>
+		<lengua>
+			<espanyol></espanyol>
+			<ingles></ingles>
+			<frances></frances>
+			<aleman></aleman>
+		</lengua>
+			
 	</libro>
-	
+	<!--	
 	<libro isbn= "" numcopia= "">
 		<titulo></titulo>
 		<titulo></titulo>	
 		<autor></autor>
 		<anyoedicion></anyoedicion>
 		<numpaginas></numpaginas>
-		<lengua></lengua>
+		<leng</lengua>
 	</libro>	
-	
+	-->
 </libros>
