@@ -1,0 +1,17 @@
+<?xml version="1"?>
+<xs:schema xmlns:xs "http://www.w3.org/2001/XMLSchema">
+
+
+<xs:complexType name="articulo">
+
+	<xs:sequence>
+		<xs:element name="codigo" type="xs:string"/>
+		<xs:element name="descripcion" type="xs:string"/>
+		<xs:element name="cantidad" type="xs:integer"/>
+		<xs:element name="precio_unitario" type="xs:decimal"/>
+		<xs:element name="total" type="xs:decimal"/>
+	</xs:sequence>
+	
+</xs:complexType>		
+
+</xs:schema>

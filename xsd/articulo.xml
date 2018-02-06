@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<articulos xmlns="articulo"
+xmlns:xsi="articulo - instance"
+xsi:schemaLocation="articulo /home/horabaixa/lenguajeDeMarcas/xsd/articulo.xsd">
+	<articulo>
+		<cantidad></cantidad>
+		<descripcion></descripcion>
+		<precioUnidad></precioUnidad>
+		<precioTotal></precioTotal>
+		<subtotales>
+			<iva></iva>
+			<envio></envio>
+			<subtotal></subtotal>			
+		</subtotales>
+	</articulo>
+	
+	<articulo>
+		<cantidad></cantidad>
+		<descripcion></descripcion>
+		<precioUnidad></precioUnidad>
+		<precioTotal></precioTotal>
+		<subtotales>
+			<iva></iva>
+			<envio></envio>
+			<subtotal></subtotal>			
+		</subtotales>
+	</articulo>
+	<total>
+</articulos>

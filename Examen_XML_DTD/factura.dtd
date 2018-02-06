@@ -1,0 +1,61 @@
+<!ELEMENT facturas (factura+)>
+	<!ELEMENT factura (numFactura, fecha, cliente, direccionEnvio?, instrucciones, articulos, empresa, logotipo?)>
+	
+	<!ELEMENT numFactura (#PCDATA)>
+	
+	<!ELEMENT fecha (#PCDATA)>
+	
+	<!ELEMENT cliente (nombre, direccion, ciudad, codigoPostal)>
+		<!ELEMENT nombre (#PCDATA)>
+		
+		<!ELEMENT direccion (#PCDATA)>
+		
+		<!ELEMENT ciudad (#PCDATA)>
+		
+		<!ELEMENT codigoPostal (#PCDATA)>
+		
+	<!ELEMENT direccionEnvio (#PCDATA)>
+	
+	<!ELEMENT instrucciones (#PCDATA)>
+	
+	
+	<!ELEMENT articulos (articulo+, subtotales, total)>
+	
+		<!ELEMENT articulo (cantidad, descripcion, precioUnidad, totalCantidad)>
+
+			<!ELEMENT cantidad (#PCDATA)>
+
+			<!ELEMENT descripcion (#PCDATA)>
+
+			<!ELEMENT precioUnidad (#PCDATA)>
+
+			<!ELEMENT totalCantidad (#PCDATA)>
+
+		<!ELEMENT subtotales (subtotal, impuesto, envio)>
+		
+			<!ELEMENT subtotal (#PCDATA)>
+
+			<!ELEMENT impuesto (#PCDATA)>
+
+			<!ELEMENT envio (#PCDATA)>
+
+		<!ELEMENT total (#PCDATA)>
+
+	<!ELEMENT empresa (nombreEmpresa?, direccionEmpresa, ciudadEmpresa, empresaCP, email, telefono?, fax?)>
+	
+		<!ELEMENT nombreEmpresa (#PCDATA)>
+		
+		<!ELEMENT direccionEmpresa (#PCDATA)>
+		
+		<!ELEMENT ciudadEmpresa (#PCDATA)>
+		
+		<!ELEMENT empresaCP (#PCDATA)>
+		
+		<!ELEMENT email (#PCDATA)>
+		
+		<!ELEMENT telefono (#PCDATA)>
+		
+		<!ELEMENT fax (#PCDATA)>
+		
+	<!ELEMENT logotipo ANY>			
+	

@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<!DOCTYPE facturas SYSTEM "factura.dtd">
+
+<facturas>
+
+	<factura>
+	
+		<numFactura>2352</numFactura>
+		<fecha>24/07/2015</fecha>
+		
+		<cliente>
+		
+			<nombre>Antonio Lopez</nombre>
+			<direccion>C/ 4 esquinas n 39</direccion>
+			<ciudad>Inca</ciudad>
+			<codigoPostal>07130</codigoPostal>
+			
+		</cliente>
+		
+		<direccionEnvio>C/ 4 calles n 48</direccionEnvio>
+		
+		<instrucciones>dejar paquete en portal</instrucciones>
+		
+		<articulos>
+		
+			<articulo>
+			
+				<cantidad>3</cantidad>
+				<descripcion>aspiradora</descripcion>
+				<precioUnidad>70</precioUnidad>
+				<totalCantidad>210</totalCantidad>
+				
+			</articulo>
+			
+			<articulo>
+			
+				<cantidad>4</cantidad>
+				<descripcion>recambios aspiradora</descripcion>
+				<precioUnidad>5</precioUnidad>
+				<totalCantidad>20</totalCantidad>
+				
+			</articulo>
+			
+			<subtotales>
+			
+				<subtotal>230</subtotal>
+				<impuesto>21</impuesto>
+				<envio>10</envio>
+				
+			</subtotales>
+			
+			<total>286</total>	
+				
+		</articulos>
+		
+		<empresa>
+		
+			<nombreEmpresa>aspiradoria</nombreEmpresa>
+			<direccionEmpresa>C/ convenvio aspiradores</direccionEmpresa>
+			<ciudadEmpresa>Palma</ciudadEmpresa>
+			<empresaCP>07034</empresaCP>
+			<email>aspiradoria@noreply.com</email>
+			<telefono>618942347</telefono>
+			<fax>871254689</fax>	
+				
+		</empresa>	
+		
+		<logotipo>aspiradora.png</logotipo>
+	
+	</factura>
+	
+	<factura>
+	
+		<numFactura>546245</numFactura>
+		<fecha>23/09/2019</fecha>
+		
+		<cliente>
+		
+			<nombre>Pedro</nombre>
+			<direccion>C/ Balaguer</direccion>
+			<ciudad>Palma</ciudad>
+			<codigoPostal>07031</codigoPostal>
+			
+		</cliente>
+		
+		
+		
+		<instrucciones>Entregar paquete en nave industrial</instrucciones>
+		
+		<articulos>
+		
+			<articulo>
+			
+				<cantidad>2</cantidad>
+				<descripcion>Llave ingles</descripcion>
+				<precioUnidad>10</precioUnidad>
+				<totalCantidad>20</totalCantidad>
+				
+			</articulo>
+			
+			<articulo>
+			
+				<cantidad>30</cantidad>
+				<descripcion>Tornillos planos</descripcion>
+				<precioUnidad>0,10</precioUnidad>
+				<totalCantidad>3</totalCantidad>
+				
+			</articulo>
+			
+			<subtotales>
+			
+				<subtotal>23</subtotal>
+				<impuesto>21</impuesto>
+				<envio>10</envio>
+				
+			</subtotales>
+			
+			<total>37,83</total>	
+				
+		</articulos>
+		
+		<empresa>
+		
+			<direccionEmpresa>C/ Jacinto Verdaguer n 28</direccionEmpresa>
+			<ciudadEmpresa>Palma</ciudadEmpresa>
+			<empresaCP>07014</empresaCP>
+			<email>brico@mania.com</email>
+			<telefono>648915454</telefono>
+			
+				
+		</empresa>	
+		
+		
+	
+	</factura>
+	
+	
+</facturas>
