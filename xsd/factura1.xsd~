@@ -1,0 +1,77 @@
+
+
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="facturas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="factura">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="fecha"/>
+              <xs:element name="cliente">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="nombreCliente"/>
+                    <xs:element type="xs:string" name="direccionCliente"/>
+                    <xs:element type="xs:string" name="ciudadCliente"/>
+                    <xs:element type="xs:int" name="codigoPostalCliente"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="envio">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="nombreEnvio"/>
+                    <xs:element type="xs:string" name="direccionEnvio"/>
+                    <xs:element type="xs:string" name="ciudadEnvio"/>
+                    <xs:element type="xs:string" name="codigoPostalEnvio"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="instrucciones"/>
+              <xs:element name="articulos">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="articulo">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:byte" name="cantidad"/>
+                          <xs:element type="xs:string" name="descripcion"/>
+                          <xs:element type="xs:decimal" name="precio"/>
+                          <xs:element type="xs:decimal" name="precioTotal"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="totales">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:decimal" name="subtotales"/>
+                    <xs:element type="xs:string" name="impuesto"/>
+                    <xs:element type="xs:string" name="total"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="empresa">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="direccionEmpresa"/>
+                    <xs:element type="xs:string" name="ciudadEmpresa"/>
+                    <xs:element type="xs:short" name="codigoPostalEmpresa"/>
+                    <xs:element type="xs:string" name="email"/>
+                    <xs:element type="xs:int" name="telefono"/>
+                    <xs:element type="xs:string" name="logotipo"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:int" name="idFactura"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+

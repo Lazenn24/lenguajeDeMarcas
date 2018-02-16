@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE facturas >
+	<facturas>
+		<factura idFactura="1">
+			<fecha>23/06/15</fecha>
+			<cliente>
+				<nombreCliente>Sergio</nombreCliente>
+				<direccionCliente>C/ 4 esquinas</direccionCliente>
+				<ciudadCliente>Palma</ciudadCliente>
+				<codigoPostalCliente>07013</codigoPostalCliente>
+			</cliente>
+			<envio>
+				<nombreEnvio></nombreEnvio>
+				<direccionEnvio></direccionEnvio>
+				<ciudadEnvio></ciudadEnvio>
+				<codigoPostalEnvio></codigoPostalEnvio>
+			</envio>
+			<instrucciones>Dejar en puerta</instrucciones>
+			<articulos>
+				<articulo>
+					<cantidad>3</cantidad>
+					<descripcion>Plancha de acero</descripcion>
+					<precio>20</precio>
+					<precioTotal>60</precioTotal>
+				</articulo>
+			</articulos>
+			<totales>
+				<subtotales>60</subtotales>
+				<impuesto>12,6</impuesto>
+				<total>72,6</total>
+			</totales>	
+			<empresa>
+				<direccionEmpresa>C/ 3 esquinas</direccionEmpresa>
+				<ciudadEmpresa>Inca</ciudadEmpresa>
+				<codigoPostalEmpresa>07009</codigoPostalEmpresa>
+				<email>metales@gmail.com</email>
+				<telefono>619564713</telefono>
+				<logotipo>metales.png</logotipo>
+			</empresa>
+		</factura>	
+</facturas>
